@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width")
+    title
+    //- cordova script (this will be a 404 during development)
+    script(src="cordova.js")
+    //- app
+    link(href="style.css" rel="stylesheet")
+    script(src="app.js")
+  body(ng-app="app" ng-strict-di)
+    ion-pane
+      ion-header-bar.bar-stable
+        h1.title Ionic Blank Starter
+      ion-content
