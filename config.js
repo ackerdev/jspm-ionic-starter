@@ -11,66 +11,27 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  separateCSS: true,
-
-  depCache: {
-    "src/app.js": [
-      "github:angular/bower-angular@1.4.6",
-      "github:driftyco/ionic-bower@1.1.0"
-    ],
-    "github:driftyco/ionic-bower@1.1.0": [
-      "github:driftyco/ionic-bower@1.1.0/js/ionic-angular"
-    ],
-    "github:angular/bower-angular@1.4.6": [
-      "github:angular/bower-angular@1.4.6/angular"
-    ],
-    "github:driftyco/ionic-bower@1.1.0/js/ionic-angular": [
-      "github:driftyco/ionic-bower@1.1.0/js/ionic",
-      "github:angular/bower-angular@1.4.6",
-      "github:angular/bower-angular-animate@1.4.6",
-      "github:angular/bower-angular-sanitize@1.4.6",
-      "github:angular-ui/ui-router@0.2.13"
-    ],
-    "github:angular-ui/ui-router@0.2.13": [
-      "github:angular-ui/ui-router@0.2.13/angular-ui-router"
-    ],
-    "github:angular/bower-angular-sanitize@1.4.6": [
-      "github:angular/bower-angular-sanitize@1.4.6/angular-sanitize"
-    ],
-    "github:angular/bower-angular-animate@1.4.6": [
-      "github:angular/bower-angular-animate@1.4.6/angular-animate"
-    ],
-    "github:angular-ui/ui-router@0.2.13/angular-ui-router": [
-      "github:angular/bower-angular@1.4.6"
-    ],
-    "github:angular/bower-angular-sanitize@1.4.6/angular-sanitize": [
-      "github:angular/bower-angular@1.4.6"
-    ],
-    "github:angular/bower-angular-animate@1.4.6/angular-animate": [
-      "github:angular/bower-angular@1.4.6"
-    ]
-  },
 
   map: {
-    "angular": "github:angular/bower-angular@1.4.6",
+    "angular": "github:angular/bower-angular@1.4.7",
     "babel": "npm:babel-core@5.8.25",
-    "babel-runtime": "npm:babel-runtime@5.8.24",
-    "core-js": "npm:core-js@1.1.4",
+    "babel-runtime": "npm:babel-runtime@5.8.25",
+    "core-js": "npm:core-js@1.2.1",
     "ionic": "github:driftyco/ionic-bower@1.1.0",
     "jade": "github:johnsoftek/plugin-jade@0.5.1",
     "github:angular-ui/ui-router@0.2.13": {
-      "angular": "github:angular/bower-angular@1.4.6"
+      "angular": "github:angular/bower-angular@1.4.7"
     },
-    "github:angular/bower-angular-animate@1.4.6": {
-      "angular": "github:angular/bower-angular@1.4.6"
+    "github:angular/bower-angular-animate@1.4.7": {
+      "angular": "github:angular/bower-angular@1.4.7"
     },
-    "github:angular/bower-angular-sanitize@1.4.6": {
-      "angular": "github:angular/bower-angular@1.4.6"
+    "github:angular/bower-angular-sanitize@1.4.7": {
+      "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:driftyco/ionic-bower@1.1.0": {
-      "angular": "github:angular/bower-angular@1.4.6",
-      "angular-animate": "github:angular/bower-angular-animate@1.4.6",
-      "angular-sanitize": "github:angular/bower-angular-sanitize@1.4.6",
+      "angular": "github:angular/bower-angular@1.4.7",
+      "angular-animate": "github:angular/bower-angular-animate@1.4.7",
+      "angular-sanitize": "github:angular/bower-angular-sanitize@1.4.7",
       "angular-ui-router": "github:angular-ui/ui-router@0.2.13"
     },
     "github:johnsoftek/plugin-jade@0.5.1": {
@@ -150,7 +111,7 @@ System.config({
     "npm:async@0.2.10": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:babel-runtime@5.8.24": {
+    "npm:babel-runtime@5.8.25": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:buffer@3.5.0": {
@@ -188,7 +149,7 @@ System.config({
     "npm:constantinople@3.0.2": {
       "acorn": "npm:acorn@2.4.0"
     },
-    "npm:core-js@1.1.4": {
+    "npm:core-js@1.2.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
