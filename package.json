@@ -50,6 +50,7 @@
   "cordovaPlatforms": [],
   "jspm": {
     "dependencies": {
+      "angular-mocks": "github:angular/bower-angular-mocks@^1.4.7",
       "ionic": "github:driftyco/ionic-bower@^1.1.0",
       "jade": "github:johnsoftek/plugin-jade@^0.5.1"
     },

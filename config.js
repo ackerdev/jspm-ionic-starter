@@ -14,6 +14,7 @@ System.config({
 
   map: {
     "angular": "github:angular/bower-angular@1.4.7",
+    "angular-mocks": "github:angular/bower-angular-mocks@1.4.7",
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
     "core-js": "npm:core-js@1.2.1",
@@ -23,6 +24,9 @@ System.config({
       "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:angular/bower-angular-animate@1.4.7": {
+      "angular": "github:angular/bower-angular@1.4.7"
+    },
+    "github:angular/bower-angular-mocks@1.4.7": {
       "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:angular/bower-angular-sanitize@1.4.7": {
