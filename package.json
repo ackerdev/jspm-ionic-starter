@@ -7,7 +7,7 @@
     "build:assets": "mkdir -p www/fonts && cp -r jspm_packages/github/driftyco/ionic-bower@*/fonts www/fonts",
     "build:index": "jade src/index.jade --out www",
     "build:js": "npm run lint:js && jspm bundle-sfx src/app.js www/app.js",
-    "build:css": "node-sass src/scss/style.scss www/style.css --output-style compressed --source-map true --importer node_modules/sass-jspm-importer/src/importer.js",
+    "build:css": "node-sass scss/style.scss www/style.css --output-style compressed --source-map true --importer node_modules/sass-jspm-importer/src/importer.js",
     "watch:assets": "gaze 'npm run build:assets' 'jspm_packages/**/*'",
     "watch:index": "npm run build:index -- -w",
     "watch:js": "gaze 'npm run build:js' 'src/**/*.js' 'src/**/!(index)*.jade'",
