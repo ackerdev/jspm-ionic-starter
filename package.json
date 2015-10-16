@@ -4,7 +4,7 @@
   "description": "jspm-ionic: An Ionic project",
   "scripts": {
     "lint:js": "jshint src",
-    "build:assets": "mkdir -p www/fonts && cp -r jspm_packages/github/driftyco/ionic-bower@*/fonts www/fonts && echo 'Built assets'",
+    "build:assets": "mkdir -p www/fonts && cp -r jspm_packages/github/driftyco/ionic-bower@*/fonts www/ && echo 'Built assets'",
     "build:index": "jade src/index.jade --out www",
     "build:js": "npm run lint:js && jspm bundle-sfx src/app.js www/app.js",
     "build:css": "node-sass scss/style.scss www/style.css --output-style compressed --source-map true --importer node_modules/sass-jspm-importer/src/importer.js",
