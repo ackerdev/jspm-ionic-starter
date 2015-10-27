@@ -16,7 +16,7 @@ module.exports = function(config) {
 
     jspm: {
       loadFiles: ['src/**/*.spec.js'],
-      serveFiles: ['src/**/!(*spec).js']
+      serveFiles: ['src/**/!(*spec).js', 'src/**/*.jade']
     },
 
 
