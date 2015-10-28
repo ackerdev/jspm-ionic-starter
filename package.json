@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "jspm-ionic: An Ionic project",
   "scripts": {
-    "lint:js": "jshint src",
+    "lint:js": "jshint --reporter=node_modules/jshint-stylish src",
     "build:assets": "mkdir -p www/fonts && cp -r jspm_packages/github/driftyco/ionic-bower@*/fonts www/ && echo 'Built assets'",
     "build:index": "jade src/index.jade --out www",
     "build:js": "npm run lint:js & jspm bundle-sfx src/app.js www/app.js",
@@ -24,6 +24,7 @@
     "istanbul": "gotwarlost/istanbul.git#source-map",
     "jade": "^1.11.0",
     "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
     "jspm": "^0.16.11",
     "karma": "^0.13.10",
     "karma-babel-preprocessor": "^5.2.2",
